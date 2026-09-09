@@ -5,7 +5,6 @@ public class RectangleTester {
         System.out.println("Area: " + rect.calculateArea());
         System.out.println("Perimeter: " + rect.calculatePerimeter());
         System.out.println("Diagonal: " + rect.calculateDiagonal());
-        System.out.println("Equal: " + rect.equals(rect));
 
         Rectangle rect2 = new Rectangle(0, 0);
         System.out.println(rect2.toString());
